@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "revit_importer"
+version = "0.2.0"
+name = "Blender Revit Bridge"
+tagline = "Import Revit .rvt files without Revit, with auto textures"
+maintainer = "Hassan Tavangar <mgoodrich347@gmail.com>"
+type = "add-on"
+website = "https://github.com/Goodrich347/blender-revit-bridge"
+tags = ["Import-Export"]
+
+blender_version_min = "4.2.0"
+
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Read .rvt files, write converted GLB/CSV and cached textures"
+network = "Download CC0 textures from ambientCG"
