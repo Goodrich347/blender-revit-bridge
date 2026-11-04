@@ -5,6 +5,10 @@ Works on macOS (Apple Silicon and Intel), Linux and Windows hosts.
 
 `File › Import › Revit (.rvt)`
 
+[![Demo: importing a Revit model with auto textures](docs/demo.gif)](docs/demo.mp4)
+
+▶️ [Watch the full demo (1:48, MP4)](docs/demo.mp4)
+
 ## Features
 
 - **Direct `.rvt` import** for files saved with Revit 2016 to 2027. Conversion runs in the background and `ESC` cancels it.
